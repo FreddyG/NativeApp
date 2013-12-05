@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_user"
+   >
+    
+
+
+    <TextView
+        android:id="@+id/textDialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF" 
+    />
+    
+    <EditText
+      android:id="@+id/input"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/textDialog"
+      android:textColor="#FFF" 
+      android:ems="6"
+      android:inputType="text"
+      android:maxLength="10"
+      
+    />
+    
+ 
+     <Button
+        android:id="@+id/ContinueButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input"
+        android:text="Continue"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+     />
+     
+     
+</RelativeLayout>
