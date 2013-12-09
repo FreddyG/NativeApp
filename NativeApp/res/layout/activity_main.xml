@@ -10,7 +10,7 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/Start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -19,29 +19,29 @@
         android:text="Start" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/Settings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_below="@+id/button1"
+        android:layout_alignLeft="@+id/Start"
+        android:layout_below="@+id/Start"
         android:layout_marginTop="17dp"
         android:text="Settings" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/Highscores"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/Start"
+        android:layout_below="@+id/Settings"
         android:layout_marginTop="17dp"
         android:text="Highscores" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/Exit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_below="@+id/button3"
+        android:layout_alignLeft="@+id/Start"
+        android:layout_below="@+id/Highscores"
         android:layout_marginTop="21dp"
         android:text="Exit" />
 
