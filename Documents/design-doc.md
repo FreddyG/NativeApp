@@ -103,6 +103,16 @@ Added Fields:
 <li>Move will be falling</li>
 </ul>
 
+Class Rock extends GameObject:
+-------------
+Added Fields:
+<ul>
+<li>Lives</li>
+<li>Move will be nothing</li>
+</ul>
+
+
+
 Class Bullet extends GameObject:
 -------------
 
@@ -145,6 +155,16 @@ Fields:
 <li>Score</li>
 <li>Difficulty</li>
 <li>Lives</li>
+</ul>
+
+LevelsDatabase:
+-------------
+Fields:
+<ul>
+<li>Level number</li>
+<li>String enemyShips</li>
+<li>int amountShips</li>
+The last two values are dependent from eachother.
 </ul>
 
 Java style:
