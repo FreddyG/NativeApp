@@ -44,9 +44,9 @@ In hasCollide implement damage.
 </ul>
 Fields:
 <ul>
-<li>-lives</li>
-<li>-position</li>
-<li>-ammo</li>
+<li>lives</li>
+<li>position</li>
+<li>ammo</li>
 <li>bullet</li>
 </ul>
 Class EnemyShip extends ship:
@@ -91,6 +91,7 @@ Fields
 
 
 Class PowerUp extends GameObject:
+-------------
 add specific power_up
 Class beams extends game_object:
 override  values 

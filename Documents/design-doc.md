@@ -44,9 +44,9 @@ In hasCollide implement damage.
 </ul>
 Fields:
 <ul>
-<li>-lives</li>
-<li>-position</li>
-<li>-ammo</li>
+<li>lives</li>
+<li>position</li>
+<li>ammo</li>
 <li>bullet</li>
 </ul>
 Class EnemyShip extends ship:
@@ -56,10 +56,11 @@ Added Methodes:
 <li>add specific abilities</li>
 </ul>
 Added Fields:
-Ammo will be infinite.
-String possibleDirections []
-Specify type of bullet
-
+<ul>
+<li>Ammo will be infinite.</li>
+<li>String possibleDirections []</li>
+<li>Specify type of bullet</li>
+</ul>
 
 
 Class MyShip extends ship:
