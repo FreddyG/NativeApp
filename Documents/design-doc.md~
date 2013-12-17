@@ -33,7 +33,7 @@ HighscoresActivity:
 
 
 
-Class ship:
+Class Ship:
 -------------
 Methodes:
 <ul>
@@ -49,7 +49,7 @@ Fields:
 <li>ammo</li>
 <li>bullet</li>
 </ul>
-Class EnemyShip extends ship:
+Class EnemyShip extends Ship:
 -------------
 Added Methodes:
 <ul>
@@ -63,7 +63,7 @@ Added Fields:
 </ul>
 
 
-Class MyShip extends ship:
+Class MyShip extends Ship:
 -------------
 Added methodes:
 <ul>
@@ -95,7 +95,7 @@ Class PowerUp extends GameObject:
 -------------
 Added Methods:
 <ul>
-</li>void powerUp(String fieldToChange,String value)</li>
+<li>void powerUp(String fieldToChange,String value)</li>
 </ul>
 
 Added Fields:
@@ -137,7 +137,7 @@ Fields:
 Databases:
 =============
 
-Highscores-database:
+HighscoresDatabase:
 -------------
 Fields:
 <ul>
@@ -149,12 +149,12 @@ Fields:
 
 Java style:
 =============
+Declaration:
 <ul>
 <li>Variables: someVariable</li>
 <li>Classes: SomeClass</li>
 <li>Methodes: someMethod</li>
 <li>Activity: SomeActivity</li>
-
 </ul>
 <ul>
 Comments:
