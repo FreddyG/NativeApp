@@ -28,7 +28,7 @@ SettingsActivity:
 HighscoresActivity:
 -------------
 <ul>
-<li>displays highscores, using datafrom mysqlite database</li>
+<li>displays highscores, using data from mysqlite database</li>
 </ul>
 
 
@@ -116,25 +116,52 @@ Added Fields:
 <li>Move will be falling</li>
 </ul>
 
+Class SaveScore:
+-------------
+Saves score
+Class MakeDb: 
+-------------
+Creates database
+
+Class Data:
+-------------
+Fields:
+<ul>
+<li>Username</li>
+<li>Score</li>
+<li>Difficulty</li>
+<li>Lives</li>
+</ul>
 
 
 Databases:
+=============
 
 Highscores-database:
 -------------
 Fields:
 <ul>
-<li>user</li>
-<li>score</li>
-<li>level</li>
-<li>lives</li>
+<li>Username</li>
+<li>Score</li>
+<li>Difficulty</li>
+<li>Lives</li>
 </ul>
 
-Styles:
+Java style:
+=============
+<ul>
+<li>Variables: someVariable</li>
+<li>Classes: SomeClass</li>
+<li>Methodes: someMethod</li>
+<li>Activity: SomeActivity</li>
 
-Java-code:
-
-
+</ul>
+<ul>
+Comments:
+<li> //comment max 1 line </li>
+<li>/** multiple</li>
+<li>lines */</li>
+</ul>
 
 Tutorials:
 
