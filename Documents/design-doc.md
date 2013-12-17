@@ -118,7 +118,7 @@ Class Bullet extends GameObject:
 
 Added Methods:
 <ul>
-</li>void collision(Object o)</li>
+<li>void collision(Object o)</li>
 </ul>
 
 Added Fields:
