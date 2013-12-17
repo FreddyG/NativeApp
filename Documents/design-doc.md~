@@ -56,10 +56,11 @@ Added Methodes:
 <li>add specific abilities</li>
 </ul>
 Added Fields:
-Ammo will be infinite.
-String possibleDirections []
-Specify type of bullet
-
+<ul>
+<li>Ammo will be infinite.</li>
+<li>String possibleDirections []</li>
+<li>Specify type of bullet</li>
+</ul>
 
 
 Class MyShip extends ship:
@@ -81,8 +82,8 @@ Class GameObject:
 
 Methods:
 <ul>
-<li>move</li>
-<li>collision</li>
+<li>void move(String direction,int units)</li>
+<li>void collision(Object o)</li>
 </ul>
 Fields
 <ul>
@@ -92,22 +93,42 @@ Fields
 
 Class PowerUp extends GameObject:
 -------------
-add specific power_up
-Class beams extends game_object:
-override  values 
+Added Methods:
+<ul>
+</li>void powerUp(String fieldToChange,String value)</li>
+</ul>
 
-Class bullets extends game_object:
-override  values 
-****(Simplify as much as possible)
+Added Fields:
+<ul>
+<li>Move will be falling</li>
+</ul>
+
+Class Bullet extends GameObject:
+-------------
+
+Added Methods:
+<ul>
+</li>void collision(Object o)</li>
+</ul>
+
+Added Fields:
+<ul>
+<li>Move will be falling</li>
+</ul>
+
+
 
 Databases:
 
 Highscores-database:
-user
-score
-level (***Implement for second phase)
-lives (if reached end)
-
+-------------
+Fields:
+<ul>
+<li>user</li>
+<li>score</li>
+<li>level</li>
+<li>lives</li>
+</ul>
 
 Styles:
 
