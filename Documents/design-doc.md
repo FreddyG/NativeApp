@@ -31,38 +31,67 @@ HighscoresActivity:
 <li>displays highscores, using datafrom mysqlite database</li>
 </ul>
 
-Here are some in-game classes I would like to implement.
-Class <name>:
-<method>
+
 
 Class ship:
 -------------
+Methodes:
 <ul>
 <li>boolean move(String direction, int units)</li>
-<li>void shoot</li>
+<li>void shoot(Bullet typeOfBullet)</li>
 <li>boolean hasCollide(GameObjetc o)</li>
+In hasCollide implement damage.
 </ul>
 Fields:
 <ul>
-<li>-energy</li>
+<li>-lives</li>
 <li>-position</li>
 <li>-ammo</li>
+<li>bullet</li>
 </ul>
 Class EnemyShip extends ship:
 -------------
-add specific movements
-add specific shots
-add specific abilities
+Added Methodes:
+<ul>
+<li>add specific abilities</li>
+</ul>
+Added Fields:
+Ammo will be infinite.
+String possibleDirections []
+Specify type of bullet
+
+
 
 Class MyShip extends ship:
-override movements
-override shoot
+-------------
+Added methodes:
+<ul>
+<li>void pressedLeft()</li>
+<li>void pressedRight()</li>
+<li>void pressedFire()</li>
+</ul>
 
+<ul>
+Added Fields:
+<li>lives (depending on settings)</li>
+<li>Bullet myBullet</li>
+</ul>
 Class GameObject:
-movement
-collision
+-------------
 
-Class power_up extends game_object:
+Methods:
+<ul>
+<li>move</li>
+<li>collision</li>
+</ul>
+Fields
+<ul>
+<li>position</li>
+</ul>
+
+
+Class PowerUp extends GameObject:
+-------------
 add specific power_up
 Class beams extends game_object:
 override  values 
