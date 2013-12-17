@@ -1,77 +1,78 @@
 Classes
--------------
-
+=============
 
 MainActivity:
-=============
-provides buttons to go to gameplay,settings,highscores or exits
+-------------
+<ul>
+<li>provides buttons to go to gameplay,settings,highscores or exits</li>
+</ul>
+
 
 GameplayActivity:
-=============
-makes in-game objects
-handels game
-stores highscores
-make gameplay objects(draw them)
-update game current status (on screen)
-handels input and update the model
-takes care of all sounds in game
-
-Settingscontroller:
-=============
-displays settings
-save settings (SharedPreferences)
-
+-------------
+<ul>
+<li>makes in-game objects</li>
+<li>handels game</li>
+<li>stores highscores</li>
+<li>make gameplay objects(draw them)</li>
+<li>update game current status (on screen)</li>
+<li>handels input and update the model</li>
+<li>takes care of all sounds in game</li>
+</ul>
+SettingsActivity:
+-------------
+<ul>
+<li>displays settings</li>
+<li>save settings (SharedPreferences)</li>
+</ul>
 HighscoresActivity:
-=============
-displays highscores, using datafrom mysqlite database
-
+-------------
+<ul>
+<li>displays highscores, using datafrom mysqlite database</li>
+</ul>
 
 Here are some in-game classes I would like to implement.
 Class <name>:
 <method>
 
 Class ship:
-=============
-boolean move(String direction, int units)
-void shoot
-boolean hasCollide(GameObjetc o)
+-------------
+<ul>
+<li>boolean move(String direction, int units)</li>
+<li>void shoot</li>
+<li>boolean hasCollide(GameObjetc o)</li>
+</ul>
 Fields:
--energy
--position
--ammo
-
+<ul>
+<li>-energy</li>
+<li>-position</li>
+<li>-ammo</li>
+</ul>
 Class EnemyShip extends ship:
-=============
 add specific movements
 add specific shots
 add specific abilities
 
 Class MyShip extends ship:
-=============
 override movements
 override shoot
 
 Class GameObject:
-=============
 movement
 collision
 
 Class power_up extends game_object:
-=============
 add specific power_up
 Class beams extends game_object:
 override  values 
 
 Class bullets extends game_object:
-=============
 override  values 
 ****(Simplify as much as possible)
 
 Databases:
--------------
 
 Highscores-database:
-=============
 user
 score
 level (***Implement for second phase)
